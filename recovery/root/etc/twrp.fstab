@@ -1,0 +1,5 @@
+# mount point   fstype     device					              device2			             flags
+/system         ext4      /dev/block/bootdevice/by-name/system
+/system_image   emmc      /dev/block/bootdevice/by-name/system
+/data           f2fs      /dev/block/bootdevice/by-name/userdata   flags=encryptable=/dev/block/bootdevice/by-name/metadata
+/boot           emmc      /dev/block/bootdevice/by-name/boot
