@@ -1,4 +1,5 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 PRODUCT_LOCALES := en_US
 
 # Screen density
@@ -17,8 +18,9 @@ PRODUCT_COPY_FILES += \
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := jeter
 PRODUCT_NAME := full_jeter
-PRODUCT_BRAND := Motorola
-PRODUCT_MANUFACTURER := Motorola
+PRODUCT_BRAND := motorola
+PRODUCT_MODEL := g6_play
+PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
 ro.product.model
