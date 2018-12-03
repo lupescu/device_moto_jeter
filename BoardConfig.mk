@@ -51,6 +51,10 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_CONFIG := mot8937-jeter
 TARGET_KERNEL_SOURCE := kernel/moto/msm
 
+#TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+#BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=30 msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlycon=msm_hsl_uart,0x78B0000 vmalloc=400M buildvariant=user androidboot.selinux=permissive
+#BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt $(LOCAL_PATH)/dt.img
+
 # Recovery
 TARGET_RECOVERY_FSTAB := device/moto/jeter/recovery/root/etc/twrp.fstab
 TARGET_RECOVERY_QCOM_RTC_FIX := true
@@ -72,4 +76,3 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_INCLUDE_CRYPTO := true
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
-
