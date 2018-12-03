@@ -1,2 +1,2 @@
-add_lunch_combo jeter-eng
-add_lunch_combo jeter-userdebug
+add_lunch_combo rr_jeter-eng
+add_lunch_combo rr_jeter-userdebug
