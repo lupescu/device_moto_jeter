@@ -1,4 +1,6 @@
 PRODUCT_LOCALES := en_US
+$(call inherit-product-if-exists, vendor/moto/jeter/device-vendor.mk)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
