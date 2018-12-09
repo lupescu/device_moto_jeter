@@ -1,4 +1,4 @@
--include vendor/motorola/jeter/BoardConfigVendor.mk
+-include vendor/moto/jeter/BoardConfigVendor.mk
 LOCAL_PATH := device/moto/jeter/
 
 TARGET_BOARD_VENDOR := motorola
