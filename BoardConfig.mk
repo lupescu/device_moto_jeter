@@ -1,3 +1,4 @@
+-include vendor/motorola/jeter/BoardConfigVendor.mk
 LOCAL_PATH := device/moto/jeter/
 
 TARGET_BOARD_VENDOR := motorola
@@ -8,7 +9,7 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
-TARGET_CPU_SMP := true
+#TARGET_CPU_SMP := true
 
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno308
 
@@ -66,7 +67,7 @@ BOARD_HAS_NO_MISC_PARTITION := false
 BOARD_RECOVERY_SWIPE := true
 BOARD_USES_MMCUTILS := true
 BOARD_SUPPRESS_EMMC_WIPE := true
-BOARD_SUPPRESS_SECURE_ERASE := true
+BOARD_SUPPRESS_SECURE_ERASE := trLOCAL_PATH := device/moto/jeter/ue
 TW_BRIGHTNESSS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 149
 TW_MAX_BRIGHTNESS := 255
