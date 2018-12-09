@@ -1,2 +1,1 @@
-LOCAL_PATH := device/moto/jeter/
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/rr_jeter.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/rr_jeter.mk
